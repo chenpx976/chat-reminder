@@ -29,6 +29,13 @@ OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 chat-reminder 晚上吃饭
 ```
 
+Q&A
+
+```bash
+sudo chmod +x /usr/local/bin/chat-reminder
+```
+
+
 ## License
 
 MIT
