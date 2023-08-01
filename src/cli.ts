@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-import { chatReminder } from './index';
+import { ChatAPI } from './index';
 
 const prompt = process.argv[2];
-chatReminder(prompt);
+
+const chatAPI = new ChatAPI(process.env.OPENAI_API_KEY || '');
+
+chatAPI.chatReminder(prompt)
